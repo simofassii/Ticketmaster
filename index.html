@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketPrank - Biglietti Evento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>TicketPrank</h1>
+    </div>
+
+    <div class="content">
+        <h2>Biglietti disponibili per Billie Eilish - 8 Giugno 2025</h2>
+        <p>Stiamo cercando i migliori biglietti per te...</p>
+        <div class="loader"></div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2025 TicketPrank. Tutti i diritti riservati.</p>
+    </div>
+
+    <div id="reveal">
+        <h2>Scherzo! Sei su TicketPrank :)</h2>
+        <p>Ti ha fatto uno scherzo un tuo amico. Non ci sono biglietti qui!</p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('reveal').style.display = 'block';
+        }, 5000);
+    </script>
+</body>
+</html>
